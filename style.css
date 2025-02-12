@@ -1,0 +1,53 @@
+body {
+    font-size: 15pt;
+}
+button{
+  width: 70px;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid #000;
+  background-color: dodgerblue;
+  border-radius: 10px;
+}
+.main{
+  text-align: center;
+  border: 1px solid #000;
+  width: 100%;
+  height: 380px;
+  box-shadow: 2px 3px 10px #000;
+}
+img{
+  width: 30%;
+  height: 30%;
+  
+}
+.optiom{
+  border: 1px solid black;
+  width: 100%;
+  height: 370px;
+  box-shadow: 0px 0px 10px  black;
+}
+.h1{
+  text-align: center;
+}
+/* Estilo para telas grandes (desktops) */
+@media (min-width: 1024px) {
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+/* Estilo para telas médias (tablets) */
+@media (max-width: 1023px) and (min-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}
+
+/* Estilo para telas pequenas (smartphones) */
+@media (max-width: 599px) {
+    .container {
+        width: 100%;
+    }
+}
